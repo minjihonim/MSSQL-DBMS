@@ -1,5 +1,3 @@
-DROP TABLE buyTBL, userTBL;
-GO
 CREATE TABLE userTBL (
 	userID CHAR(8) NOT NULL PRIMARY KEY,
 	name nvarchar(10) NOT NULL,
